@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         playGame()
         if answer == ["stick"]{
             resultLabel.text = "平手啦"
-            resultNPCImage.image = UIImage(named: "npc")
+            resultNPCImage.image = UIImage(named: "draw")
             resultImage.image = UIImage(named: "stick")
         }else if answer == ["tiger"]{
             resultLabel.text = "恭喜你贏惹"
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
             resultImage.image = UIImage(named: "tiger")
         }else if answer == ["chicken"]{
             resultLabel.text = "平手啦"
-            resultNPCImage.image = UIImage(named: "npc")
+            resultNPCImage.image = UIImage(named: "draw")
             resultImage.image = UIImage(named: "chicken")
         }else if answer == ["worm"]{
             resultLabel.text = "哈哈輸惹吧"
